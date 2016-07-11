@@ -1,0 +1,147 @@
+*, *:after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, #container, .container, .wrapper {
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+p{
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+a{
+	color: #0047ab;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+header {
+	z-index: 200;
+	margin: 2em auto;
+	padding: 2em;
+	width: 80%;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+}
+
+h1{
+	font-size: 24px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 200;
+}
+
+.container > header span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	font-weight: 400;
+	color: #893027;
+}
+
+.nav {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li {
+	display: inline-block;
+	margin-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav li a {
+	position: relative;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 0;
+	outline: none;
+	color: #aaa;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 1.5em;
+	-webkit-transition: border-color 0.3s, color 0.3s;
+	transition: border-color 0.3s, color 0.3s;
+}
+
+.content {
+	position: relative;
+	margin: auto;
+	padding: 1em 0;
+	width: 95%;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.content h2 {
+	position: relative;
+	color: #111;
+	font-weight: 600;
+	font-size: 2.4em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.content h3 {
+	position: relative;
+	color: #333;
+	font-weight: 300;
+	font-size: 1.4em;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 72.875em) {
+
+}
+
+@media screen and (max-width: 41.25em) {
+	.content h2 {
+	position: relative;
+	color: #111;
+	font-weight: 600;
+	font-size: 1.62em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.content h3 {
+	position: relative;
+	color: #333;
+	font-weight: 300;
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
