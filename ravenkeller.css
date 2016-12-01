@@ -199,6 +199,12 @@ h3 a, h3 a:hover {
 	border-bottom: 1px solid #d0d0d0;
 }
 
+.kicker-white-line{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 25px;
+}
+
 .project-promo{
 	border-bottom: 1px solid #000;
 	padding-bottom: 20px;
