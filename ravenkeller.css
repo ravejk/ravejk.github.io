@@ -262,6 +262,19 @@ li{
 	line-height: 1.3em;
 }
 
+.rot-90{
+ -webkit-transform: rotate(90deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(90deg);      /* to support IE 9 */
+    transform: rotate(90deg);	
+}
+
+
+.rot-180{
+ -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);	
+}
+
 /*
 @media screen and (max-width: 72.875em) {
 
