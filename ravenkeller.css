@@ -213,6 +213,9 @@ h3 a, h3 a:hover {
 	margin-bottom: 15px;
 }
 
+.project-promo .no-bottom-line{
+	border-bottom: none;
+}
 .no-line{
 	border-bottom: none;
 }
