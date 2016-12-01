@@ -36,6 +36,10 @@ html, body, #container, .container, .wrapper {
 	width: 100%;
 }
 
+.visual img .width-50{
+	width: 50%;
+}
+
 .visual .wrapper{
 	padding-top: 25px;
 	padding-bottom: 25px;
