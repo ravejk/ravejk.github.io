@@ -54,8 +54,8 @@ html, body, #container, .container, .wrapper {
 	color: #fff;
 }
 
-.footer.wrapper{
-	padding: 0;
+.footer .wrapper{
+	padding-top: 0px !important;
 }
 
 .footer{
