@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Raven</title>
+		<meta name="description" content="Raven's design work'" />
+		<meta name="keywords" content="designer, product designer, research" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="ravenkeller.css" />
+		<link href='https://fonts.googleapis.com/css?family=Poppins:600, 300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-wrapper">
+			<a href="http://ravenkeller.com"><h1 class="ravenkeller">Raven Keller</h1></a>
+			<a href="http://ravenkeller.com/contact.html"><h1 class="contact">Contact</h1></a>
+			</div>
+		</div>
+		<div id="container" class="container">
+					<div class="intro blue-back">
+						<div class="wrapper">
+						<h2>Stela, analytics for The New York Times
+						</h2>
+							<h1 class="description">The NYTimes Best Sellers is the preeminent list of best-selling books in the United States. The list has expanded and contracted over its multi-decade history and is currently comprised of 31 individual lists organized by genre, format and subject matter. Each list is updated either weekly or monthly.</h1>
+							<div><h1><a href="http://www.nytimes.com/books/best-sellers/" target="blank">Visit the Best Sellers</a></h1></div>
+						</div>
+					</div>
+						<a href="http://www.nytimes.com/books/best-sellers/" target="_blank">	<div class="visual full-width">
+								<div class="wrapper">
+								<img src="nyt-bs-final.png">
+								<p class="caption">The redesigned Best Sellers list.</p>
+								</div>
+							</div></a><!--/end visual -->
+
+			<div class="wrapper role">
+				
+					<h3 class="kicker project">the challenge</h3>
+					<p>The objective of this project was to migrate the Best Sellers list to a new responsive platform, and to redesign the user experience for ease of use and increased referral link monetization.</p>	
+					
+					</div>
+					<div class="visual">
+						<div class="wrapper">
+						<img src="">
+						<p class="caption">The landing page of the old Best Sellers list.</p>
+						</div>
+					</div><!--/end visual -->
+					<div class="wrapper role">
+				
+				
+					<h3 class="kicker project">my role</h3>
+					<ul>
+					<li>Partnered with the newsroom Best Sellers team to gain insights and identify our customers</li>
+
+					<li>Analyzed our competitors, ideated on possible solutions and created a research prototype to test with users</li>
+
+					<li>Collaborated closely with research team to develop discussion guide, conduct research and interpret insights</li>
+					
+					<li>Collaborated with engineering team to understand technical limitations</li>
+
+					<li>Partnered with our product manager to plan the scope of the project</li>
+					
+						<li>Designed a user experience to meet business and user needs</li>
+					
+					<li>Partnered with the branding design team to create placeholder book cover images and other graphic design collateral.</li>
+
+					<li>Paired with our engineers to polish the design in build, contributed CSS VQA code</li>
+						<li>Partnered with advertising and legal to iterate based on their needs.</li>
+
+					<li>Usability tested the final design with the team</li>
+					</ul>
+					
+					
+						<h3 class="kicker project">background research and identifying our users</h3>
+					<p>The first step in this project was to gather background information on the Best Sellers lists, and any insights related to user types and user behavior. Our product manager pulled all metrics that she could find about use of the existing site, and we set up time to interview our stakeholders in the newroom, the Best Sellers editorial desk.</p>	
+					<p>From these early conversations we learned that the lists had two distinct user types:</p> <p>Our primary user was the reader who visits the lists to keep up to date with new and popular books, with the goal of finding her next book.</p>
+					<p>Our secondary user type is the publisher, who uses the lists to track the success of her titles. She shares the success of her books via social media, and uses the book's ranking to sell rights to foreign publishing houses.</p> 
+					<p>To be able to design the best solution for our users, we needed next to learn more about their behavior and needs. We pulled data on traffic and performance, and met with our internal research team to put together a customer development research plan. I began doing competitive analysis so that I could create provocations that we could use to provoke additional discussion and test out ideas during these sessions.</p>
+					
+					<h3 class="kicker project">competitive analysis</h3>
+					<p>I pulled together several products that were targeted towards helping users find their next book. There weren't many so I expanded to sites for finding your next audiobook and movie as well. I used each of these tools to try to find a book for myself.</p>
+
+					<h3 class="kicker project">ideation and prototype</h3>
+					<p>I sketched out some ideas and flows on paper, and discussed them with our team for feedback, scope assessment and to determine what we wanted to explore through additional research.</p>
+					<p>Product and design worked together to determine the features and flow that we wanted to test. I mocked up those screens using Sketch, and built a linked mock InVision prototype.</p>
+					<p>We would use the prototype during testing to learn more about the user's behavior and needs, and to validate or invalidate the new interface. A prototype is a quick way to test how a design and flow will be received by the list's existing users - what works and what doesn't - so that we can iterate and refine early in the process and avoid launch a an effective product.</p>
+				
+					</div>
+					<div class="visual">
+						<div class="wrapper">
+						<img src="nyt-bs-trending.jpg">
+						<img src="nyt-bs-provocation-2.jpg">
+						<p class="caption">Screens from the prototype used in research.</p>
+						</div>
+					</div><!--/end visual -->
+					<div class="wrapper role">
+					
+					<h3 class="kicker project">customer research</h3>
+					<p>Our product manager and I worked closely with our in-house research team to put together a survey and in person testing plan.</p>
+					<p>We created a survey, which we posted on the Books and Best Sellers section fronts, to collect insights from a larger number of readers (around 300). The survey helped us understand frequency and purpose of use, and to identify a range of readers from which we could recruit for an in person conversation.</p> 
+						<p>Our research team selected a range of individuals from the survey, screened them by phone and set up 9 in person or video interviews. 8 of these research participants were readers who were looking for their next book, and 1 was a publisher.</p>
+					<p>We also developed a discussion guide to use during these sessions. The first half of the guide asked participants about their reading behavior and needs, and asked them to walk through their use of the existing site. In the latter half, we showed them the prototype.</p>
+					<p>During testing sessions, our team was able to watch the interviews via a video feed to a second room. Our PM and I made sure that our newsroom team as well as our developers were present for at least some of the sessions so that we were all sharing in learnings, and able to discuss insights and implications together. After testing was complete, I facilitated a discussion around insights and takeaways, open questions and concerns, and known and possible technical limitations.</p>
+					
+					<h3 class="kicker project">product definition</h3>
+					<p>With a much stronger understanding of our users, our product manager and I met to decide what we would build and why. We outlined requirements and scope. We decided that, based on time and resource constraints, we would release a foundational redesign and perhaps add some additional features in a second pass.</p>
+				
+					
+					<h3 class="kicker project">iterating on the design</h3>
+					<p>
+					Using everything I learned during background, customer development and competitive analysis research, I created several variations of the design and met with our team for feedback.</p> 
+					<p>Several technical limitations and unforseen product requirements emerged through this process. I responded with further iterations.
+					</p>
+					
+					</div>
+					<div class="visual">
+						<div class="wrapper">
+						<img src="nyt-bs-new.jpg">
+						<p class="caption">Final design.</p>
+						</div>
+					</div><!--/end visual -->
+					<div class="wrapper role">
+
+					<h3 class="kicker project">building and polish</h3>
+					<p>Throughout the iteration process, our team met to identify elements of the product that could be outlined and assigned as tasks in JIRA. I supplied mocks, specs and CSS as needed.</p>
+					<p>As elements of the UI came together, I viewed source on the staging build and submitted visual quality assurance requests in CSS via JIRA. I also paired with our developers in person to refine and finalize various parts of the interface, as made sense.</p> 
+		
+						<h3 class="kicker project">usability testing</h3>
+						<p>Before launching the redesign live, our team set up a fairly informal usability testing session in the office, to observe staff using the tool. We were able to get a range of participants, some of whom were habituated to the Best Sellers list and some whom had never used it! The interface was easy to use so we were ready for launch.</p>
+						
+						</div>
+						<div class="visual">
+							<div class="wrapper">
+							<img src="">
+							<p class="caption">A candid shot of two of our Best Sellers newsroom stakeholders observing a usability testing participant navigate the UI.</p>
+							</div>
+						</div><!--/end visual -->
+						<div class="wrapper role">
+						
+						<h3 class="kicker project">launch</h3>
+						<p>Almost all of our stakeholders came together for launch. We sat together as one of our engineers sent us live and narrated as search engines discovered the new code, our first couple of users hit the page, and then as traffic very excitingly picked up.</p>
+					
+						
+						</div>
+						<div class="visual">
+							<div class="wrapper">
+							<img src="">
+							<p class="caption">The team getting ready for launch!</p>
+							</div>
+						</div><!--/end visual -->
+						<div class="wrapper role">
+						
+							<h3 class="kicker project">the results</h3>
+							<p>Although I can't talk about exact performance, our product manager and a data analyst from the team have tracked a statistically significant increase in referrer link traffic since our launch in April 2016.</p>
+					
+						
+					</div>
+					<div class="wrapper">
+						<h3 class="kicker kicker-black-line">other projects</h3>
+						<a href="http://www.niemanlab.org/2016/07/the-new-york-times-is-trying-to-narrow-the-distance-between-reporters-and-analytics-data/" target="_blank"><div class="project-promo">
+							<h1>Stela, NYTimes newsroom analytics tool</h1>
+						</div></a>
+						<a href="http://www.nytimes.com/podcasts/still-processing?_r=0" target="_blank"><div class="project-promo">
+							<h1>NYTimes Podcasts</h1>
+						</div></a>
+						<a href="http://www.oldsf.org/#" target="_blank"><div class="project-promo">
+							<h1>OldSF.org</h1>
+						</div></a>
+						<a href="https://www.icann.org/public-comments" target="_blank"><div class="project-promo">
+							<h1>ICANN</h1>
+						</div></a>
+						<a href="http://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker" target="_blank"><div class="project-promo">
+							<h1>Singaporean Government's visa application process</h1>
+						</div></a>
+					</div>
+			</div>
+			<div class="footer grey-back">
+				<div class="wrapper">
+				<h3>"The real voyage of discovery consists not in seeking new landscape but in having new eyes." -Proust"</h3>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</body>
+</html>
