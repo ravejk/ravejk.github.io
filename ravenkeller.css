@@ -178,9 +178,14 @@ h1 a{
 	margin-top: 20px;
 }
 
-h3 a, h3 a:hover {
-        color: #000;
-	text-decoration: underline;
+h3 a {
+        color: #4078c0;
+	text-decoration: none;
+}
+
+ h3 a:hover {
+        color: #2d5386;
+	text-decoration: none;
 }
 
 .quote{
