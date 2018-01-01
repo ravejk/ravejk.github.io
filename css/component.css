@@ -11,6 +11,16 @@ html, body, .vs-container {
 }
 img{
 }
+
+img.img-40{
+	width: 40%;
+}
+img.img-70{
+	width: 70%;
+}
+img.img-100{
+	width: 100%;
+}
 .photo{
 	margin: 60px 0 50px 0;
 }
@@ -88,7 +98,7 @@ h3{
 .vs-header {
 	z-index: 200;
 	margin: 1em auto;
-	padding: 1em;
+	padding: 0;
 	width: 90%;
 	text-align: center;
 	-webkit-backface-visibility: hidden;
@@ -430,6 +440,10 @@ h3{
 		width: 85%;
 	}
 
+	.vs-content p {
+		width: 100%;
+	}
+
 	.vs-content h2 {
 		font-size: 1.8em;
 	}
@@ -441,6 +455,22 @@ h3{
 	}
 
 	.vs-content .col {
+		width: 100%;
+	}
+
+	.photo{
+		margin: 40px 0 30px 0;
+	}
+
+	img.img-40{
+		width: 70%;
+	}
+
+	img.img-70{
+		width: 100%;
+	}
+
+	img.img-100{
 		width: 100%;
 	}
 }
