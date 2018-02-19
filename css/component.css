@@ -167,7 +167,7 @@ h3{
 }
 
 .vs-nav li a:hover{
-	color: #999;
+	color: #444;
 }
 
 .vs-nav li a:focus,
@@ -336,7 +336,7 @@ h3{
 }
 
 .vs-sidenav div:hover {
-	background: rgba(0,0,0,0.09);
+	background: rgba(0,0,0,0.2);
 }
 
 .vs-sidenav .vs-sidenav-left {
