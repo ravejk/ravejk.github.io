@@ -27,10 +27,14 @@ img.img-100{
 .photo{
 	margin: 60px 0 50px 0;
 }
+.photo_hero{
+	margin: 30px 0 50px 0;
+}
 .photo-caption{
 	font-size: 75%;
 	line-height: 120%;
 	letter-spacing: 0.02rem;
+	font-style: italic;
 	padding: 0;
 	margin: 0;
 }
@@ -41,13 +45,16 @@ img.img-100{
 	margin-top: 7em !important;
 }
 .intro{
-	/*margin-bottom: 60px;*/
+	text-align: center;
+}
+ul li{
+	padding: 5px 0;
 }
 body {
 	font-family: sans-serif;
 	color: #111;
 	background: #fff;
-	font-size: 18px;
+	font-size: 16px;
 }
 p{
 	line-height: 180%;
@@ -73,8 +80,8 @@ b{
 h3{
 	font-size: 1rem;
 	text-transform: uppercase;
-	margin-bottom: 30px !important;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.075em;
+	margin-top: 30px;
 }
 .lighter-text{
 	font-size: 60%;
@@ -167,7 +174,7 @@ h3{
 }
 
 .vs-nav li a:hover{
-	color: #444;
+	color: #999;
 }
 
 .vs-nav li a:focus,
@@ -336,7 +343,7 @@ h3{
 }
 
 .vs-sidenav div:hover {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.09);
 }
 
 .vs-sidenav .vs-sidenav-left {
@@ -367,10 +374,10 @@ h3{
 
 .vs-content h1 {
 	position: relative;
-	margin: 30px 0 5px;
+	margin: 30px 0 15px 0;
 	color: #111;
 	font-weight: 700;
-	font-size: 3.25em;
+	font-size: 2.8em;
 	line-height: 120%;
 	font-family:'Lato', sans-serif;
 }
@@ -464,22 +471,13 @@ h3{
 		margin: 40px 0 30px 0;
 	}
 
-	img.img-40{
-		width: 70%;
-	}
-
-	img.img-70{
-		width: 70%;
-	}
-
-	img.img-100{
-		width: 100%;
-	}
+	
 }
 
 
 /*@media screen and (max-width: 45.25em) {*/
 @media screen and (max-width: 41.25em) {
+
 
 	.vs-container > header h1 {
 		margin-bottom: 0;
@@ -491,8 +489,12 @@ h3{
 	}
 
 	.vs-wrapper {
-		font-size: 80%;
+		
 	}
+
+	.vs-content h1 {
+	font-size: 2.2em;
+}
 
 	.vs-triplelayout .vs-nav li a {
 		width: auto;
@@ -516,6 +518,7 @@ h3{
 		-moz-column-count: auto;
 		column-count: auto;
 	}
+
 
 }
 
