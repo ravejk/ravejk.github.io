@@ -9,6 +9,11 @@ html, body, .vs-container {
 	width: 100%;
 	height: 100%;
 }
+
+.img-1-border{
+	border: 1px solid #ddd;
+}
+
 img{
 }
 
@@ -47,6 +52,12 @@ img.img-100{
 .intro{
 	text-align: center;
 }
+
+ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none
+}
 ul li{
 	padding: 5px 0;
 }
@@ -72,17 +83,19 @@ a:hover{
 	color: #20ADF7;
 	text-decoration: none;
 }
-b{
-	font-family: 'Lato';
-	text-transform: uppercase;
-	color: #111;
-}
+
 h3{
-	font-size: 1rem;
+	font-size: 1.1rem;
 	text-transform: uppercase;
 	letter-spacing: 0.075em;
 	margin-top: 30px;
 }
+h4{
+	font-weight:bold;
+	margin-bottom: 5px;
+}
+
+
 .lighter-text{
 	font-size: 60%;
 	font-weight: 300;
@@ -172,6 +185,7 @@ h3{
 	-webkit-transition: border-color 0.3s, color 0.3s;
 	transition: border-color 0.3s, color 0.3s;
 }
+
 
 .vs-nav li a:hover{
 	color: #999;
@@ -359,9 +373,9 @@ h3{
 /* inner content */
 
 
-.vs-content .col-1 {
+/*.vs-content .col-1 {
 		margin-bottom: 2em;
-	}
+	}*/
 
 .vs-content {
 	position: relative;
@@ -409,6 +423,15 @@ h3{
 	column-gap: 1%;*/
 }
 
+.vs-content .col-1 {
+		-webkit-column-width: 50%;
+		-moz-column-width: 50%;
+		column-width: 50%;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
 .vs-header,
 	.vs-wrapper {
 
@@ -427,15 +450,8 @@ h3{
 		font-family: 'Lato', helvetica, sans-serif;
 	}
 
-/*	.vs-content .col {
-		-webkit-column-width: 50%;
-		-moz-column-width: 50%;
-		column-width: 50%;
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
-	}
-	*/
+	
+	
 
 /* Media queries */
 @media screen and (max-width: 72.875em) {
@@ -454,7 +470,7 @@ h3{
 	}
 
 	.vs-content h2 {
-		font-size: 1.8em;
+		
 	}
 
 	.vs-nav li a {
