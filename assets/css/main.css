@@ -46,6 +46,11 @@
     -webkit-text-size-adjust: none;
   }
 
+  embed.pdf{
+    width: 100%;
+    height: 1000px;
+  }
+
 /* Box Model */
 
   *, *:before, *:after {
