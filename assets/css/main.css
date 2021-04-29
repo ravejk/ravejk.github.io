@@ -140,7 +140,7 @@
 
   }
 
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 980px) { 
 
     .container.\31 25\25 {
       width: 100%;
@@ -162,10 +162,6 @@
 
     .container {
       width: 90%;
-    }
-    
-    ul.plain {
-    display: none; 
     }
 
   }
@@ -4556,3 +4552,11 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+  @media screen and (max-width: 980px) { 
+    
+      ul.plain {
+    display: none; 
+    }
+    
+}
