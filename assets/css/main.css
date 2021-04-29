@@ -163,6 +163,10 @@
     .container {
       width: 90%;
     }
+    
+    ul.plain {
+    display: none; 
+    }
 
   }
 
